@@ -117,8 +117,8 @@ footer {
 	width: 600px;
 }
 
-.width550 {
-	width: 550px;
+.inputwidth {
+	width: 100%;
 }
 
 .width270 {
@@ -213,4 +213,45 @@ footer {
 	padding: 25px;
 	position: absolute;
 	bottom: 20px;
+} 
+
+@media screen and (max-width: 980px) {
+
+	.resasidemar {
+		margin-right: 70px;
+	}
+	
+	.resname {
+		width: 600px; 
+	}
+
+	.resmaincont {
+		width: 500px;
+	}
+
+	.resmaincont img {
+		width: 100%;
+		margin-bottom: 10px;
+	} 
+
+	.reslftmarg {
+		margin-left: 70px
+	}
+
+	.imgport {
+		width: 100%;
+	} 
+
+	.portlabel {
+		width: 100%;
+		bottom: 40px;
+	}
+} 
+
+@media screen and (max-width: 768px) {
+	
+}
+
+@media screen and (max-width: 640px) {
+	
 }
