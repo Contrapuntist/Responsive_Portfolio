@@ -80,12 +80,14 @@ main {
 }
 
 section {
-	
 	margin-top: 30px;
+	display: inline-flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 aside {
-	float: right;
+	
 }
 
 footer {
@@ -97,6 +99,12 @@ footer {
     border-top-style: solid;
     border-top-width: 5px;
 	overflow: visible;
+}
+
+.asidebox {
+	width: 270px;
+	height: 175px;
+	margin-left: 50px;
 }
 
 .wrapper {
@@ -129,9 +137,7 @@ footer {
 	float: left;
 }
 
-.disinlnblock {
-	display: inline-block;
-}
+
 
 .margintop20 {
 	margin-top: 20px;
@@ -250,8 +256,56 @@ footer {
 
 @media screen and (max-width: 768px) {
 	
+	header {
+		display: inline-flex;
+		justify-content: space-between; 
+	}
+
+	nav {
+		margin-right: 5px;
+	}
+	nav ul {
+		text-align: right;
+	}
+
+	.asidebox {
+		width: 100% ;
+		margin: 20px;
+	} 
+
+	.resmaincont {
+		width: 100%;
+		margin: 0 20px 10px 20px;
+	}
+
+	.resmaincont img {
+		width: 250px;
+		float: left;
+	}
+
+	.reslftmarg {
+		margin-left: 20px;
+	} 
+	
+	.imgport {
+		width: 50%;
+		margin: 0 auto;
+		padding: 10px;
+	} 
+
+	.imgport img {
+		width: 100%;
+	}
+
+	.portlabel {
+		width: 95.5%;
+		bottom: 40px;
+	} 
+
 }
 
 @media screen and (max-width: 640px) {
 	
+	
+
 }
