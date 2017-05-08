@@ -107,23 +107,7 @@ footer {
 	margin-left: 50px;
 }
 
-.wrapper {
-	width: 960px;
-	margin: 0 auto;
-}
 
-
-.width960 {
-	width: 960px;
-}
-
-.width650 {
-	width: 650px;
-}
-
-.width600 {
-	width: 600px;
-}
 
 .inputwidth {
 	width: 100%;
@@ -221,6 +205,23 @@ footer {
 	bottom: 20px;
 } 
 
+.width960 {
+	width: 960px;
+}
+
+.width650 {
+	width: 650px;
+}
+
+.width600 {
+	width: 600px;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
 @media screen and (max-width: 980px) {
 
 	.resasidemar {
@@ -256,9 +257,21 @@ footer {
 
 @media screen and (max-width: 768px) {
 	
+	.wrapper {
+		max-width: 768px
+	}
+
+	p {
+		font-size: 18px;
+	} 
+
 	header {
 		display: inline-flex;
 		justify-content: space-between; 
+	}
+
+	footer {
+		width: 100%;
 	}
 
 	nav {
@@ -302,10 +315,23 @@ footer {
 		bottom: 40px;
 	} 
 
+
 }
 
 @media screen and (max-width: 640px) {
 	
+	nav {
+		width: 640px;
+	}
+
+	.resheader {
+		width: 100%;
+	}
 	
+	.resname {
+		width: 640px;
+	}
+
+
 
 }
