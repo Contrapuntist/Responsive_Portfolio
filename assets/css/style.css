@@ -51,7 +51,6 @@ p {
 
 header {
 	display: inline-flex;
-	align-content: center;
 	line-height: 40px; 
 	border-bottom: 2px solid #cccccc;
 	background-color: #ffffff;
@@ -98,7 +97,6 @@ footer {
     border-top-color: #4aaaa5;
     border-top-style: solid;
     border-top-width: 5px;
-	overflow: visible;
 }
 
 .asidebox {
@@ -106,8 +104,6 @@ footer {
 	height: 175px;
 	margin-left: 50px;
 }
-
-
 
 .inputwidth {
 	width: 100%;
@@ -120,8 +116,6 @@ footer {
 .floatleft {
 	float: left;
 }
-
-
 
 .margintop20 {
 	margin-top: 20px;
@@ -257,10 +251,6 @@ footer {
 
 @media screen and (max-width: 768px) {
 	
-	.wrapper {
-		max-width: 768px
-	}
-
 	p {
 		font-size: 18px;
 	} 
@@ -285,6 +275,14 @@ footer {
 		width: 100% ;
 		margin: 20px;
 	} 
+	
+	.rescontainer {
+		width: 760px;
+	}
+
+	.ressection {
+		width: 760px;
+	}
 
 	.resmaincont {
 		width: 100%;
@@ -314,24 +312,54 @@ footer {
 		width: 95.5%;
 		bottom: 40px;
 	} 
-
+	
 
 }
 
 @media screen and (max-width: 640px) {
 	
-	nav {
-		width: 640px;
+	header {
+		flex-wrap: wrap;
 	}
 
-	.resheader {
+	nav li {
+		display: inline-flex;
+		width: 150px;
+		margin: 0 auto;
+	} 
+
+
+	.logo {
+		width: 100%;
+		padding: 10px 25px;
+	}
+
+	.rescontainer {
+		width: 640px;
+	} 
+
+	.resmaincont img {
 		width: 100%;
 	}
+
+	.resmrgin640 {
+		margin: 0 auto;
+	}
 	
-	.resname {
-		width: 640px;
+	.imgport {
+		width: 100%;
+		margin: 0 auto;
+		padding: 10px;
+	} 
+
+	.imgport img {
+		width: 100%;
 	}
 
+	.portlabel {
+		width: 97.5%;
+		bottom: 40px;
+	} 
 
 
 }
