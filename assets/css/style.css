@@ -85,10 +85,6 @@ section {
 	flex-wrap: wrap;
 }
 
-aside {
-	
-}
-
 footer {
 	text-align: center;
 	background-color: #666666; 
@@ -322,20 +318,26 @@ footer {
 		flex-wrap: wrap;
 	}
 
+	nav {
+		margin-right: 10px;
+	}
+
 	nav li {
 		display: inline-flex;
 		width: 150px;
-		margin: 0 auto;
 	} 
 
 
 	.logo {
 		width: 100%;
 		padding: 10px 25px;
+		vertical-align: middle;
+		text-align: center;
 	}
 
 	.rescontainer {
 		width: 640px;
+
 	} 
 
 	.resmaincont img {
@@ -349,7 +351,7 @@ footer {
 	.imgport {
 		width: 100%;
 		margin: 0 auto;
-		padding: 10px;
+		padding: 0;
 	} 
 
 	.imgport img {
@@ -357,9 +359,9 @@ footer {
 	}
 
 	.portlabel {
-		width: 97.5%;
+		width: 100%;
 		bottom: 40px;
+		padding: 25px; 
 	} 
-
 
 }
